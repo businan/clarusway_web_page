@@ -1,0 +1,76 @@
+.introduction {
+    
+    @include background("././images/showcase.jpg");
+    position: relative;
+    height: 400px;
+    
+    color: $secondaryTextColor;
+    #name {
+        position: absolute;
+        top: 100px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-size: 3.6rem;
+        font-weight: bold;
+        margin: -10px 0;
+    }
+    #description {
+        position: absolute;
+        top: 150px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+}
+
+.subscribe {
+    background-color: $primaryBackgroundColor;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    
+    
+    color: $secondaryTextColor;
+    
+    #newsletter {
+        margin-left: 200px;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    form {
+        margin-right: 200px;
+    }
+    #email {
+
+        width: 250px;
+        height: 30px;
+    }
+    #submit {
+        height: 36px;
+        background: $primaryTextColor;
+        color: $secondaryTextColor;
+        border: none;
+        padding: 0 20px;
+    }
+}
+
+.logo {
+    height: 280px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: $logoBackgroundColor;
+    border-bottom: 3px solid $primaryTextColor;
+    .box {
+        margin-top: 30px;
+        width: 500px;
+        padding: 0 10px;
+        
+        img {
+            width: 90px;  
+        }
+    }
+}

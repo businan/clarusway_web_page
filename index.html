@@ -9,59 +9,65 @@
 </head>
 
 <body>
-    <nav>
-        <div class="left-navbar">
-            <p><span>Clarusway</span>Web Design</p>
-        </div>
-        <div class="right-navbar">
-            <ul class="nav-link">
-                <li>Home</li>
-                <li>About</li>
-                <li>Services</li>
-            </ul>
-        </div>
-    </nav>
-
     <main>
-        <p>Professional Web Design</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu luctus ipsum, rhoncus semper magna. Nulla
-            nec magna sit amet sem interdum condimentum.</p>
+        <nav class="navbar">
+            <div class="left-navbar">
+                <h1><span>Clarusway </span>Web Design</h1>
+            </div>
+            <div class="right-navbar">
+                <ul class="nav-link">
+                    <li><a id="home" href="index.html">Home</a> </li>
+                    <li><a id="about" href="about.html">About</a> </li>
+                    <li><a id="services" href="services.html">Services</a> </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="introduction">
+            <p id="name">Professional Web Design</p>
+            <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu luctus ipsum, rhoncus semper magna.
+                Nulla
+                nec magna sit amet sem interdum condimentum.</p>
+        </section>
+
+        <section class="subscribe">
+            <div id="newsletter">
+                <p>Subscribe To Our Newsletter</p>
+            </div>
+            <div>
+                <form action="#">
+                    <input type="email" name="email" id="email" placeholder="Enter Email...">
+                    <button type="submit" id="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="logo">
+            <div class="box">
+                <img src="./images/logo_html.png" alt="html_logo">
+                <h3>HTML5 Markup</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies
+                </p>
+            </div>
+            <div class="box">
+                <img src="./images/logo_css.png" alt="css_logo">
+                <h3>CSS3 Styling</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies
+                </p>
+            </div>
+            <div class="box">
+                <img src="./images/logo_brush.png" alt="graphic_logo">
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies
+                </p>
+            </div>
+        </section>
+
+        <footer>
+            <p>Clarusway Web Design, Copyright © 2020</p>
+            <img src="https://clarusway.com/wp-content/uploads/2020/06/clarusway_logo.png" alt="clarusway_logo">
+        </footer>
     </main>
-
-    <section>
-        <div> 
-            <p>Subscribe To Our Newsletter</p>
-        </div>
-        <div>
-            <form action="#">
-                <input type="email" name="" id="" placeholder="Enter Email...">
-                <button type="submit">Subscribe</button>
-            </form>
-        </div>
-    </section>
-
-    <article>
-        <div>
-            <img src="./images/logo_html.png" alt="html_logo">
-            <h3>HTML5 Markup</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
-        </div>
-        <div>
-            <img src="./images/logo_css.png" alt="css_logo">
-            <h3>CSS3 Styling</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
-        </div>
-        <div>
-            <img src="./images/logo_brush.png" alt="graphic_logo">
-            <h3>Graphic Design</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
-        </div>
-    </article>
-
-    <footer>
-        <p>Clarusway Web Design, Copyright © 2020</p>
-        <img src="./images/clarusway_logo.png" alt="clarusway_logo">
-    </footer>
 </body>
 
 </html>

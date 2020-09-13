@@ -1,3 +1,143 @@
+.navbar {
+  background-color: #35424a;
+  border-bottom: 3px solid #a9508b;
+}
+.navbar .left-navbar {
+  float: left;
+  margin-left: 200px;
+}
+.navbar .left-navbar h1 {
+  font-size: 2rem;
+  color: #fff;
+}
+.navbar .left-navbar h1 span {
+  color: #a9508b;
+}
+.navbar .right-navbar {
+  float: right;
+  margin: 25px 150px 0 0;
+}
+.navbar .right-navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+.navbar .right-navbar ul li {
+  margin-right: 40px;
+}
+.navbar .right-navbar ul li #home {
+  color: #a9508b;
+}
+.navbar .right-navbar ul li #home:hover {
+  color: #fff;
+}
+.navbar .right-navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
 
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+}
+body main, html main {
+  display: flex;
+  flex-direction: column;
+}
+body main nav, body main section, body main footer, html main nav, html main section, html main footer {
+  width: 100%;
+}
+
+.introduction {
+  background-image: url("././images/showcase.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  position: relative;
+  height: 400px;
+  color: #fff;
+}
+.introduction #name {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: bold;
+  margin: -10px 0;
+}
+.introduction #description {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.subscribe {
+  background-color: #35424a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  color: #fff;
+}
+.subscribe #newsletter {
+  margin-left: 200px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.subscribe form {
+  margin-right: 200px;
+}
+.subscribe #email {
+  width: 250px;
+  height: 30px;
+}
+.subscribe #submit {
+  height: 36px;
+  background: #a9508b;
+  color: #fff;
+  border: none;
+  padding: 0 20px;
+}
+
+.logo {
+  height: 280px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+  border-bottom: 3px solid #a9508b;
+}
+.logo .box {
+  margin-top: 30px;
+  width: 500px;
+  padding: 0 10px;
+}
+.logo .box img {
+  width: 90px;
+}
+
+footer {
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fffaf0;
+  color: #000;
+}
+footer img {
+  width: 200px;
+  height: 40px;
+  margin-top: -15px;
+}
 
 /*# sourceMappingURL=style.css.map */

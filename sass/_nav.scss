@@ -1,0 +1,47 @@
+.navbar {
+    
+    background-color: $primaryBackgroundColor;
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-around;
+    
+    border-bottom: 3px solid $primaryTextColor;
+    .left-navbar {
+        float: left;
+        margin-left: 200px;
+        h1 {
+            font-size: 2rem;
+            color: $secondaryTextColor;
+            span {
+                color: $primaryTextColor;
+            }
+        }
+    }
+
+    .right-navbar {
+        float: right;
+        margin: 25px 150px 0 0;
+        ul {
+            list-style-type: none;
+            display: flex;
+            
+            li{
+                margin-right: 40px;
+                #home {
+                    color: $primaryTextColor;
+                }
+                #home:hover {
+                    color: $secondaryTextColor;
+                }
+                a {
+                text-decoration: none;
+                color: $secondaryTextColor;
+                text-transform: uppercase;
+                font-size: 1.1rem;
+            }
+            }
+
+            
+        }
+    }
+}
