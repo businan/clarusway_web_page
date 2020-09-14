@@ -45,3 +45,17 @@
         }
     }
 }
+@media (max-width: 1100px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        .left-navbar {
+            margin: 0 auto;  
+        }
+    
+        .right-navbar {
+            margin: 0 auto; 
+        }
+    }
+    
+  }

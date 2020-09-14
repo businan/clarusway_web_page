@@ -74,3 +74,27 @@
         }
     }
 }
+
+@media (max-width: 1100px) {
+    .subscribe {
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+        #newsletter {
+            margin: 0 auto;   
+        }
+        form {
+            
+            margin: 0 auto 30px auto;
+        } 
+    }
+    .introduction {
+        #name {
+            top: 75px;
+        }
+        #description {
+            top: 250px;
+            
+        }
+    }
+  }
