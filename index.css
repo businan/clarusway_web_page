@@ -164,7 +164,8 @@ body main nav, body main section, body main footer, html main nav, html main sec
     flex-direction: column;
   }
   .logo .box {
-    margin: 0 auto;
+    width: auto;
+    margin: 0 auto 10px auto;
   }
 }
 footer {
