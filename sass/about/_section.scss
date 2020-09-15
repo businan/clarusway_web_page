@@ -1,0 +1,56 @@
+.about-us {
+    height: 600px;
+    display: flex;
+    width: 100%;
+    
+    .about {
+        margin: 0 100px 0 200px;
+        width: 50%;
+        h4 {
+            font-size: 1.2rem;
+        }
+        p {
+            font-size: 1.03rem;
+        }
+    }
+    .we-do {
+        margin: 25px 150px 0 0;
+        width: 25%;
+        
+        p {
+            font-size: 1.03rem;
+            span {
+                display: block;
+                margin-bottom: 20px;
+                font-size: 1.2rem;
+            }
+        }
+    }
+    .dark {
+        padding: 15px;
+        background-color: $primaryBackgroundColor;
+        color: $secondaryTextColor;
+        
+    }
+    
+}
+
+@media (max-width: 1100px) {
+    .about-us {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+       
+        
+        .about {
+            margin: 0 auto;
+            width: 50%;
+            
+        }
+        .we-do {
+            margin: 0 auto;
+            width: 50%;
+        
+        }
+  }
+}

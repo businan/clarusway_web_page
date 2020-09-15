@@ -3,12 +3,12 @@ body, html {
     padding: 0;
     // font-size: $primaryFontSize;
     box-sizing: border-box;
-    
+    background-color: $logoBackgroundColor;
     font: $primaryFontAndSize;
     main {
         display: flex;
         flex-direction: column;
-
+        
         nav,section,footer{
             width: 100%;
         }
