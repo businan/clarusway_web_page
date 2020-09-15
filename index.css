@@ -127,7 +127,6 @@ body main nav, body main section, body main footer, html main nav, html main sec
   text-align: center;
   justify-content: center;
   background-color: #f4f4f4;
-  border-bottom: 3px solid #a9508b;
 }
 .logo .box {
   margin-top: 30px;
@@ -166,6 +165,7 @@ footer {
   justify-content: center;
   background-color: #fffaf0;
   color: #000;
+  border-top: 3px solid #a9508b;
 }
 footer img {
   width: 200px;

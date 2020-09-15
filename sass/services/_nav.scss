@@ -1,0 +1,29 @@
+.navbar {
+    .right-navbar {
+        ul {
+            li{
+                #about {
+                    color: $secondaryTextColor;
+                }
+                #about:hover {
+                    color: $secondaryTextColor;
+                }
+                #home {
+                    color: $secondaryTextColor;
+                }
+                #home:hover {
+                    color: $secondaryTextColor;
+                }
+                #services {
+                    color: $primaryTextColor;
+                }
+                #services:hover {
+                    color: $secondaryTextColor;
+                }
+                
+            }
+
+            
+        }
+    }
+}

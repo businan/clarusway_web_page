@@ -6,6 +6,7 @@ footer {
     justify-content: center;
     background-color: $footerBackgroundColor;
     color: $footerColor;
+    border-top: 3px solid $primaryTextColor;
     img {
         width: 200px;
         height: 40px;
